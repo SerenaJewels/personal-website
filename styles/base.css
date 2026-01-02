@@ -1,0 +1,37 @@
+:root {
+    --BACKGROUND-GREEN: #DFEDBB;
+    --CONTAINER-GREEN: #F4F4D5;
+    --CONTAINER-BORDER: #A3CE96;
+    --INNER-GREEN: #DFEAC4;
+}
+
+body {
+    background-image: url("../assets/strawberries.png");
+    background-size: cover;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.window {
+    align-items: center;
+    background-color: var(--BACKGROUND-GREEN);
+    border: solid;
+    border-color: #BA9798;
+    border-top: 3px;
+    border-bottom: 3px;
+    width: 70%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: var(--CONTAINER-GREEN);
+    border: solid;
+    border-color: var(--CONTAINER-BORDER);
+    border-width: 3px;
+    border-radius: 10px;
+    align-self: stretch;
+}

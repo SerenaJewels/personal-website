@@ -1,4 +1,39 @@
-body {
-    background-color: #F2E5DB;
-    text-align: center;
+.window {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    margin: 2rem 7rem 0.4rem;
+}
+
+#topper {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#rest {
+    margin: 0rem 0rem 2rem 0rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#left-col {
+    margin: 0rem 0.4rem;
+    display: flex;
+    flex-basis: 20%;
+}
+
+#middle-col {
+    display: flex;
+    flex-basis: 50%;
+}
+
+#right-col {
+    margin: 0rem 0.4rem;
+    display: flex;
+    flex-basis: 30%;
 }
