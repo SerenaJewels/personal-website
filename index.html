@@ -5,20 +5,36 @@
         <title>Serena's Website</title>
         <link rel="stylesheet" href = "styles/base.css" />
         <link rel="stylesheet" href = "styles/home.css" />
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
     </head>
     
     <body>
+        <script src="components/infoPanel.js"></script>
         <div class="window">
             <div class = "container" id="header">
                 <img id=topper src="assets/topper.png">
             </div>
             <div id="rest">
-                <div class = "container" id="left-col">
-                    
+                <div id="left-col">
+                    <div class="container" id="namecard">
+                        <info-panel>
+                            <span slot="title">Serena</span>
+                            <span slot="subtitle">she/her</span>
+                            <div class="sub-container" slot="text">
+                                Testing
+                            </div>
+                        </info-panel>
+                    </div>
+                    <div class="container" id = "nav"></div>
+                    <div class="container" id = "currents"></div>
                 </div>
-                <div class = "container" id="middle-col">
+                <div id="middle-col">
                 </div>
-                <div class = "container" id="right-col">
+                <div id="right-col">
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@
     --CONTAINER-GREEN: #F4F4D5;
     --CONTAINER-BORDER: #A3CE96;
     --INNER-GREEN: #DFEAC4;
+    --TEXT-COLOR: #476849;
 }
 
 body {
@@ -35,3 +36,11 @@ body {
     border-radius: 10px;
     align-self: stretch;
 }
+
+.sub-container{
+            border: solid;
+            border-radius: 10px;
+            border-color: var(--CONTAINER-BORDER);
+            background: var(--INNER-GREEN);
+            padding: 0.1rem;
+        }
