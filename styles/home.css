@@ -25,15 +25,24 @@
     margin: 0.4rem 0.4rem 0rem;
     display: flex;
     flex-basis: 20%;
+    flex-direction: column;
+
 }
 
 #middle-col {
     display: flex;
     flex-basis: 50%;
+    flex-direction: column;
+}
+
+#sub-main {
+    display: flex;
+    flex-direction: row;
 }
 
 #right-col {
     margin: 0.4rem 0.4rem 0rem;
     display: flex;
     flex-basis: 30%;
+    flex-direction: column;
 }

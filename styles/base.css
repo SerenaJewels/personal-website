@@ -43,4 +43,9 @@ body {
             border-color: var(--CONTAINER-BORDER);
             background: var(--INNER-GREEN);
             padding: 0.1rem;
+            margin-top: 0.7rem;
         }
+
+.sub-container p {
+    margin: 0.5rem;
+}

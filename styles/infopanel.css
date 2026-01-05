@@ -1,0 +1,27 @@
+.info-container {
+    margin: 0.5rem;
+}
+
+.title {
+    font-family: "Hi Melody", sans-serif;
+    font-size: 36px;
+    line-height: 30px
+}
+
+.subtitle {
+    font-family: "Hi Melody", sans-serif;
+    font-size: 24px;
+    display: block;
+    margin: -0.5rem 0rem;
+    text-indent: 1.5rem;
+}
+
+.text {
+    font-family: "Harmattan", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+* {
+    color: var(--TEXT-COLOR);
+}

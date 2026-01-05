@@ -1,36 +1,12 @@
 const template = document.createElement('template');
 template.innerHTML = `
-    <style>
-        .info-container {
-            margin: 1rem;
-            font-color: var(--TEXT-COLOR);
-        }
-        
 
-        .title {
-            margin: 0;
-            font-family: "Hi Melody", sans-serif;
-            font-size: 30px;
-        }
-        
-        .subtitle {
-            margin: 0;
-            margin-top: -1rem;
-            text-indent: 1rem;
-            font-family: "Hi Melody", sans-serif;
-            font-size: 24px;
-        }
+    <link rel="stylesheet" href = "styles/infopanel.css">
 
-        * {
-            color: var(--TEXT-COLOR);
-        }
-
-    </style>
-
-    <div class="info-container">
+<div class="info-container">
         <slot name="title" class=title></slot>
         <slot name="subtitle" class=subtitle></slot> 
-        <slot name="text"></slot>
+        <slot name="text" class=text></slot>
     </div>
 
 `;
