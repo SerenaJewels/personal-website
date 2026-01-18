@@ -14,7 +14,8 @@
     </head>
     
     <body>
-        <script src="components/infoPanel.js"></script>
+        <script src="./components/infoPanel.js"></script>
+        <script src="./components/navBar.js"></script>
         <div class="window">
             <div class = "container" id="header">
                 <img id=topper src="assets/topper.png">
@@ -31,14 +32,15 @@
                             </div>
                         </info-panel>
                     </div>
-                    <div class="container" id = "nav">
+                    <div class="container">
                         <info-panel>
                             <div slot="title">navigation</div>
-                            <div class="sub-container" slot="text">
-
-
+                            <div class="sub-container" slot="text" id="nav">
+                                <nav-bar>
+                                </nav-bar>
                             </div>
                         </info-panel>
+
                     </div>
                     <div class="container" id = "currents">
                         <info-panel>

@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+    font-family: "Harmattan", sans-serif;
+}
+
+ul li:before {
+    content: '- ';
+    margin-left: -2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--TEXT-COLOR)
+}

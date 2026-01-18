@@ -46,3 +46,8 @@
     flex-basis: 30%;
     flex-direction: column;
 }
+
+#nav {
+    background-image: url("../assets/green-stars.jpg");
+    background-size: cover;
+}
