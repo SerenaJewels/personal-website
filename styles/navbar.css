@@ -5,7 +5,12 @@ ul {
 
 ul li:before {
     content: '- ';
-    margin-left: -2rem;
+    margin-left: -2.3rem;
+}
+
+li {
+    margin-bottom: 2rem;
+    margin-right: 0.2rem;
 }
 
 a {
