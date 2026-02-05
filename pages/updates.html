@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Wednesdsay Updates</title>
+    <link rel="stylesheet" href = "../styles/base.css" >
+    <link rel="stylesheet" href = "../styles/updates.css" >
+</head>
+<body>
+    <script src="../components/navBar.js"></script>
+    <div class="window">
+        <div class="container">
+            <nav-bar></nav-bar>
+        </div>
+        <div class="container" id="main">
+            <h1>Weekly Wednesday Updates</h1>
+            <div class="container" id="update">
+                <p id="title">temp</p>
+                <p id="body">temp</p>
+            </div>
+        </div>
+   </div>
+</body>
+
+<script>
+    function loadFile(filePath) {
+        var result = null;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", filePath, false);
+        xmlhttp.send();
+
+        if (xmlhttp.status=200) {
+            result = xmlhttp.responseText;
+        }
+
+        return result;
+    }
+
+    var testing = loadFile("../updates/testing.txt");
+
+    document.getElementById("title").innerHTML = testing;
+</script>
+</html>

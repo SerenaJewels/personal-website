@@ -2,12 +2,12 @@ const navBarTemplate = document.createElement('template');
 
 navBarTemplate.innerHTML = `
 
-<link rel="stylesheet" href = "styles/base.css">
-<link rel="stylesheet" href = "styles/navbar.css">
+<link rel="stylesheet" href = "/styles/base.css">
+<link rel="stylesheet" href = "/styles/navbar.css">
 
 <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="updates.html">Weekly Wednesday Updates</a></li>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="pages/updates.html">Weekly Wednesday Updates</a></li>
     <li><a href="art.html">Art</a></li>
     <li><a href="library.html">Library</a></li>
     <li><a href="shrines.html">Shrines</a></li>
