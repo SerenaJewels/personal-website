@@ -1,5 +1,14 @@
 .info-container {
-    margin: 0.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.25rem;
+    min-height: 0;
+}
+
+.title-wrapper {
+    padding-top: 0.5rem;
 }
 
 .title {
@@ -20,6 +29,15 @@
     font-family: "Harmattan", sans-serif;
     font-size: 18px;
     line-height: 14px;
-    height: 100%;
 }
 
+.sub-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
