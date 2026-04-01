@@ -59,6 +59,10 @@
     flex-grow: 1;
 }
 
+#sub-main #img-container {
+    width: 50%;
+}
+
 #right-col {
     margin: 0.4rem 0.4rem 0rem;
     display: flex;
@@ -84,7 +88,7 @@
 
 #events {
     display: flex;
-    flex-basis: 60%;
+    width: 100%;
 }
 
 info-panel {
