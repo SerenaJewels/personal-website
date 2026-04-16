@@ -1,0 +1,63 @@
+:root {
+    --BACKGROUND-GREEN: #DFEDBB;
+    --CONTAINER-GREEN: #F4F4D5;
+    --CONTAINER-BORDER: #A3CE96;
+    --INNER-GREEN: #DFEAC4;
+    --TEXT-COLOR: #476849;
+}
+
+body {
+    background-image: url("../assets/strawberries.png");
+    background-size: cover;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Hi Melody", sans-serif;
+}
+
+p {
+    font-family: "Harmattan", sans-serif;
+}
+
+* {
+    color: var(--TEXT-COLOR);
+}
+.window {
+    align-items: center;
+    background-color: var(--BACKGROUND-GREEN);
+    border: solid;
+    border-color: #BA9798;
+    border-top: 3px;
+    border-bottom: 3px;
+    width: 70%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: var(--CONTAINER-GREEN);
+    border: solid;
+    border-color: var(--CONTAINER-BORDER);
+    border-width: 3px;
+    border-radius: 10px;
+    align-self: stretch;
+    margin: 0 0 0.2rem 0.2rem;
+}
+
+.sub-container{
+            border: solid;
+            border-radius: 10px;
+            border-color: var(--CONTAINER-BORDER);
+            background: var(--INNER-GREEN);
+            padding: 0.1rem;
+            margin-top: 0.7rem;
+        }
+
+.sub-container p {
+    margin: 0.5rem;
+}

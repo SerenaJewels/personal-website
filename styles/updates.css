@@ -1,0 +1,21 @@
+.window {
+    display: flex;
+    flex-direction: row;
+}
+
+nav-bar {
+    flex-basis: 5%; 
+    height: auto;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 85%;
+    padding: 0rem 1rem;
+}
+
+#update {
+    display: flex;
+    flex-direction: column;
+}

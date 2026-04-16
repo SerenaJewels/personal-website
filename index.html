@@ -3,40 +3,114 @@
 <html>
     <head>
         <title>Serena's Website</title>
-        <link rel="stylesheet" href = "styles/home.css" />
+        <link rel="stylesheet" href = "styles/base.css" >
+        <link rel="stylesheet" href = "styles/home.css" >
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&family=Hi+Melody&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        <div class = "container" id="header">
-            <H1>UNDER CONSTRUCTION!!!</H1>
+        <script src="./components/infoPanel.js"></script>
+        <script src="./components/navBar.js"></script>
+        <div class="window">
+            <div class = "container" id="header">
+                <img id=topper src="assets/topper.png">
+            </div>
+            <div id="rest">
+                <div id="left-col">
+                    <div class="container" id="namecard">
+                        <info-panel>
+                            <div slot="title">Serena</div>
+                            <div slot="subtitle">she/her</div>
+                            <div class="sub-container" slot="text">
+                                <p>likes: drawing, capybaras, classical mythology, gaming</p> 
+                                <p>dislikes: slop </p>
+                            </div>
+                        </info-panel>
+                    </div>
+                    <div class="container">
+                        <info-panel>
+                            <div slot="title">navigation</div>
+                            <div class="sub-container" slot="text" id="nav">
+                                <nav-bar>
+<!-- <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="pages/updates.html">Weekly Wednesday Updates</a></li>
+    <li><a href="art.html">Art</a></li>
+    <li><a href="library.html">Library</a></li>
+    <li><a href="shrines.html">Shrines</a></li>
+    <li><a href="guestbook.html">Guestbook</a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+    <li><a href="credits.html">Credits</a></li>
+</ul>
+ -->
+                                </nav-bar>
+                            </div>
+                        </info-panel>
+
+                    </div>
+                    <!-- <div class="container" id = "currents">
+                        <info-panel>
+                            <div slot="title">currents</div>
+                            <div class="sub-container" slot="text">
+                                <p>learning: web dev</p>
+                                <p>reading: Quantum Computation and Quantum Information</p>
+                                <p>watching: noragami, the king's avatar</p>
+                            </div>
+                        </info-panel>
+                    </div> -->
+                </div>
+                <div id="middle-col">
+                    <div class="container" id="main">
+                        <h1>HELLO!!!</h1>
+
+                        <p>I'm Serena! I'm currently an undergraduate at the University of Maryland studying Computer Science and Mathematics with a minor in Classical Mythology. I dabble in the web development sometimes, mainly for <a href="https://gotechnica.org">Technica</a> (go check them out!!!) </p>
+                        
+                        <p>This website is mainly experimental and like a digital journal. Feel free to poke around, leave suggestions, read about my thoughts! More will be coming soon!</p>
+
+                        <p>Thank you for stopping by!</p>
+                    </div>
+                    <div id="sub-main">
+                        <div class="container" id="img-container">
+                            <img src="assets/cats.png" id="img">
+                        </div>
+                        <div class="container" id="events">
+                            <info-panel>
+                                <div slot="title">Upcoming Events</div>
+                                <div class="sub-container" slot="text">
+                                    <ul style="list-style-type: square;">
+                                        <li>Laying in bed</li>
+                                        <li>Cooking food</li>
+                                        <li>Reading copious amounts of literature</li>
+                                    </ul>
+                                </div>
+                            </info-panel>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-col">
+                    <div class="container" id="update">
+                        <info-panel>
+                            <div slot="title">Currently Reading</div>
+                        
+                            <div class="sub-container" slot="text"><i>Pride and Prejudice</i> by Jane Austen</div>
+                        </info-panel>
+                    </div>
+                    <div class="container img" id="img-container">
+                        <img src="assets/frog.jpg" id="img">
+                    </div>
+                    <div class="container" id="spotify">
+                        <info-panel>
+                            <div slot="title">Listening To:</div>
+                        </info-panel>
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/61TCXTX5aJKgw6jOcwyv9w?utm_source=generator" width="100%" height="160px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class = "container" id="col">
-            <div class = "container" id="card">
-                
-            </div>
-            <div class = "container" id="nav">
-                <p>up soon! trust :D</p>
-            </div>
-        </div>
-        <div class = "container" id="col">
-            <div class = "container" id="about-me">
-
-            </div>
-            <div class = "container" id="calendar">
-
-            </div>
-        </div>
-        <div class = "container" id="col">
-            <div class = "container" id="curr-learning">
-
-            </div>
-            <div class = "container" id="update">
-
-            </div>
-            <div class = "container" id="spotify">
-
-            </div>
-        </div>
-
     </body>
 </html>
