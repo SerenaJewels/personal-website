@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Library</title>
+        <link rel="stylesheet" href = "../styles/base.css" >
+        <link rel="stylesheet" href = "../styles/library.css" >
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;500;600;700&family=Hi+Melody&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <script src="../components/infoPanel.js"></script>
+        <script src="../components/navBar.js"></script>
+        <div class="window">
+            <div class = "container" id="header">
+                <img id=topper src="../assets/toppers/library.png">
+            </div>
+            <div id="rest">
+                <div id="left-col">
+                    <div class="container">
+                        <info-panel>
+                            <div slot="title">navigation</div>
+                            <div class="sub-container" slot="text" id="nav">
+                                <nav-bar>
+                                </nav-bar>
+                            </div>
+                        </info-panel>
+
+                    </div>
+                </div>
+                <div id="middle-col">
+                    <div class="container">
+                        <info-panel>
+                            <div slot="title">Library</div>
+                            <div slot="subtitle">I've been collecting books for a while! Below are a collection of books and other media I've consumed in the past.</div>
+
+                            <div class="pin_container" slot="text">
+                                <div class="card" style="grid-row-end: span 32">
+                                    <img src="/assets/library/picture_of_dorian_gray.jpg">
+                                    <h4><i>The Picture of Dorian Gray</i> by Oscar Wilde</h4>
+                                    <p>This book is a must read classic. There are so many good quotes in the book. It really is an examination of beauty in society and the ideas of good and evil.</p>
+                                </div>
+
+                                <div class="card" style="grid-row-end: span 30">
+                                    <img src="/assets/library/proj_hail_mary_book.jpg">
+                                    <h4><i>Project Hail Mary</i> by Andy Weir</h4>
+                                    <p>I love the book. I'll admit it starts of a little self-inserty, but it gets really really good.</p>
+                                </div>
+
+                                <div class="card" style="grid-row-end: span 33">
+                                    <img src="/assets/library/pride_pred.jpg">
+                                    <h4><i>Pride and Prejudice</i> by Jane Austin</h4>
+                                    <p>I've actually tried reading it before and I didn't really like it the first time, but it's pretty good! I don't typically read romance and it's very romance but I like Lizzy, even though she might have originated the idea of a 'not like the other girls girl.'</p>
+                                </div>
+                                                                
+                                <div class="card" style="grid-row-end: span 28">
+                                    <img src="/assets/library/proj_hail_mary_movie.jpg">
+                                    <h4>Project Hail Mary (movie)</h4>
+                                    <p>WATCH IT!!! So wholesome, love Rocky, love Ryland Grace.</p>
+                                </div>
+
+                                <div class="card" style="grid-row-end: span 30">
+                                    <img src="/assets/library/the_fall_guy_movie.jpg">
+                                    <h4>The Fall Guy (movie)</h4>
+                                    <p>Cute love story of redemption mixed with action and cool stunt work! Homage to all the unrecognized stunt doubles.</p>
+                                </div>
+                            
+                                <div class="card" style="grid-row-end: span 35">
+                                    <img src="/assets/library/lotr.jpg">
+                                    <h4><i>Lord of the Rings Trilogy</i> by J.R.R. Tolkien</h4>
+                                    <p>This series is a long read, but once you get used to Tolkien's writing style, it becomes very enjoyable. Is all the do walk? Most of the time. But the world building is truly all encompasing and it's a good book to read for the fantasy world.</p>
+                                </div>
+
+                                <div class="card" style="grid-row-end: span 30">
+                                    <img src="/assets/library/tgcf.jpg">
+                                    <h4><i>Tian Guan Ci Fu</i> by Mo Xiang Tong Xiu</h4>
+                                    <p>It's popular for a reason. One of the longest slow-burn's I think I've read. Then again, I don't really read romance, so... </p>
+                                </div>
+
+                                <div class="card" style="grid-row-end: span 31">
+                                    <img src="/assets/library/link_click.jpg">
+                                    <h4>Link Click (donghua)</h4>
+                                    <p>Highly recommend. I liked the first season the best by far, but I don't think it necessarily falls off. The vibes definitely change though.</p>
+                                </div>
+                            </div>
+                        </info-panel>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

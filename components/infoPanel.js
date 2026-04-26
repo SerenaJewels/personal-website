@@ -2,7 +2,7 @@ const infoPanelTemplate = document.createElement('template');
 infoPanelTemplate.innerHTML =
 
 `
-    <link rel="stylesheet" href = "styles/infopanel.css">
+    <link rel="stylesheet" href = "/styles/infopanel.css">
 
     <div class="info-container">
         <slot name="title" class=title></slot>

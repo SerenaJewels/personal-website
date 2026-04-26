@@ -5,7 +5,11 @@ navBarTemplate.innerHTML = `
 <link rel="stylesheet" href = "/styles/base.css">
 <link rel="stylesheet" href = "/styles/navbar.css">
 <p></p>
-<i> Coming Soon... </i>
+<ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/pages/library.html">Library</a></li>
+<ul>
+
 <p></p>
 
 `;
