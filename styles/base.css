@@ -47,7 +47,7 @@ p {
     border-width: 3px;
     border-radius: 10px;
     align-self: stretch;
-    margin: 0 0 0.2rem 0.2rem;
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 .sub-container{
